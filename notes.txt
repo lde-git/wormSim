@@ -1,0 +1,16 @@
+Desired Behavior: The worm should efficiently navigate its environment to locate and consume food.
+
+Reward Structure:
+Positive Reward: +10 for consuming food.
+Negative Reward: -1 for each time step to encourage efficiency.
+
+Potential Shaping Rewards:
++1 for moving closer to food.
+-2 for bumping into obstacles.
+
+
+Performance Metrics:
+
+Success Rate: Percentage of episodes where the worm finds and consumes food.
+Average Steps to Food: The average number of time steps it takes the worm to find food.
+Exploration Rate: Percentage of time the worm takes actions that haven't been frequently chosen before.
